@@ -1,0 +1,50 @@
+#main {
+    width: 1200px;
+    margin:auto; 
+}
+#head {
+    height: 100px;
+    background-color: aqua;
+    padding:0;
+    margin-bottom: 5px;
+    border: 1px solid ;
+
+}
+#head_link {
+    height: 30px;
+    background-color:aqua;
+    border : 1px solid;
+    margin-bottom: 5px;
+}
+#left {
+    height: 500px ;
+    background-color: aqua;
+    border: 1px solid;
+    width: 193px;
+    margin-bottom: 5px;
+    float: left;
+}
+#content {
+    height: 500px ;
+    background-color: aqua;
+    border: 0px solid;
+    width: 798px;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+    border: 1px solid;
+}
+#right {
+    height: 500px;
+    width: 193px;
+    border:1px solid;
+    margin-bottom: 5px;
+    float: right;
+    background-color: aqua;
+}
+#footer {
+    height: 100px;
+    background-color: aqua;
+    border: 1px solid;
+    clear:both;
+}

@@ -1,0 +1,140 @@
+@charset "utf-8";
+body {
+	margin: 0;
+}
+u{
+	font-weight: bold;
+	font-size: 15;
+}
+#video-somi {
+	text-decoration: none;
+}
+#video-somi:hover {
+	color: #EA171B;
+}
+#hello_world {
+	color: #BB06EF;
+}
+#line1{
+	font-weight: bold;
+	font-size: 15;
+	color: #E71013;
+	
+}
+#line1_1 {
+	font-weight: bold;
+	font-size: 15;
+	color:deeppink;
+}
+#line2 {
+	color: #0DF12C;
+	
+}
+#line3 {
+	font-size: 30;
+	color: blue;
+	font-style: italic;
+}
+#somi-fancam1{
+	float: left;
+}
+#somi-fancam2{
+	margin-top: 35px;
+	
+}
+#table{
+	color: deepskyblue;
+	border-color: #B3CE46;
+	border-width: 10px;
+}
+#form{
+	clear: both;
+}
+body {
+	background:url("hani.jpg") no-repeat;
+	background-size:cover;
+	background-attachment: fixed;		
+}
+#div1 {
+	width: 100px;
+	height: 100px;
+	position:absolute;
+	left: 250px;
+	top:20px;
+	border: solid;
+	background-color: #0DF12C;
+	
+}
+#div1:hover {
+	border:25px solid #158aee;
+
+border-radius: 250px;
+
+-webkit-transform: rotate(360deg);
+
+-moz-transform: rotate(360deg);
+
+-o-transform: rotate(360deg);
+
+-ms-transform: rotate(360deg);
+
+transform: rotate(360deg);
+
+margin: 0;
+
+padding: 0;
+
+margin-bottom:0px;
+
+overflow:hidden;
+}
+#body_sonwebsite {
+	width: 1280px;
+	margin:auto;
+}
+#header {
+	text-align: center;
+	background-color: #C300F4;
+	color:#000;
+	font-size: 16px;
+	padding:2px 5px;
+}
+#header1 {
+	font-size: 30px;
+	font-weight: bold;
+}
+#content {
+	background-color:#EE161A;
+	padding:7px 0px;
+	width: 700px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	float:left;
+}
+#content:hover{
+	background-color:#F44658;
+}
+#sidebar {
+	background-color: #8465EF;
+	padding: 7px 0px;
+	width: 580px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	float: right;
+}
+#footer {
+	background-color: #16ED29;
+	padding: 7px;
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+	clear: both;
+	
+}
+
+
+
+
+

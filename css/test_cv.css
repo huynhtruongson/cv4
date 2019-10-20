@@ -1,0 +1,14 @@
+body {
+    width: 800px;
+    margin:auto;
+    position: relative;
+}
+#img {
+    height: 150px;
+    width: 150px;
+    border-radius: 200px;
+    border: solid;
+    position: absolute;
+    top :0px;
+    right:200px;
+}

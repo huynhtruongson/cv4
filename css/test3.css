@@ -1,0 +1,58 @@
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+}
+.leftside {
+    position: fixed;
+    width: 20%;
+    margin-right: 5px;
+    float:left;
+}
+.rightside  {
+    width:69%;
+    float: right;
+    margin-left: 5px;
+}
+img {
+    height: 230px;
+    width: 230px;
+    padding: 0px;
+    margin-left:  auto;
+    margin-right: auto;
+    display: block;
+
+}
+.carousel-item  {
+    transition:transform 0.5s ease;
+  }
+#table-body {
+    border: 1px solid;
+    text-align: center;
+    width: 100%;
+}
+#table-body td {
+    border: 1px solid;
+    padding:5px 10px;
+    cursor: pointer;
+}
+#table-body th {
+    border-right: 1px solid;
+    border-bottom: 3px solid;
+} 
+
+h3 {
+    border-bottom: 3px solid;
+}
+
+@media screen and (max-width:600px) {
+    .leftside,.rightside {
+        float: none;
+        width: 100%;
+        position: relative;
+    }
+    #img {
+        display: inline;
+    }
+
+}
